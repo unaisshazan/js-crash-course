@@ -47,4 +47,16 @@ let fruits = ['banana','apple','orange','pineapple'];
  console.log(allGroceries.reverse());
  let num=[2,4,5,6,7,5,6]
  console.log(num.sort())
- 
+ console.log(num.sort(function(a,b){
+     return a-b
+ }));
+ console.log(num.sort(function(a,b){
+    return b-a
+}));
+//asending desending order
+let emptyArray= new Array();
+for(let num=0 ; num <= 10 ;num++){
+emptyArray.push(num)
+
+}
+console.log(emptyArray)
