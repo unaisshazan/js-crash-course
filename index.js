@@ -69,7 +69,8 @@ let student={
     age:20,
     height:160,
     studentInfo: function(){
-        return this.first + '\n' +this.last;
+        return this.first + '\n' +
+        this.last + '\n' +this.age;
          
     }
 }
@@ -80,4 +81,5 @@ student.first='Mr Unais';
 console.log(student.first);
 student.age++;
 console.log(student.age)
-console.log(student.studentInfo())
+console.log(student.studentInfo()) // function under the list
+// conditionals,control flows (if else)
