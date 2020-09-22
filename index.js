@@ -67,10 +67,17 @@ let student={
     first : 'unais',
     last: 'ali',
     age:20,
-    height:160
+    height:160,
+    studentInfo: function(){
+        return this.first + '\n' +this.last;
+         
+    }
 }
 console.log(student.first); // access data using .
 console.log(student.last,student.age);
 //update data
-student.first='notUnais';
+student.first='Mr Unais';
 console.log(student.first);
+student.age++;
+console.log(student.age)
+console.log(student.studentInfo())
