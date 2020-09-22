@@ -80,6 +80,16 @@ console.log(student.last,student.age);
 student.first='Mr Unais';
 console.log(student.first);
 student.age++;
-console.log(student.age)
-console.log(student.studentInfo()) // function under the list
+console.log(student.age);
+console.log(student.studentInfo()); // function under the list
 // conditionals,control flows (if else)
+let age = prompt('what is your age?');
+if ((age >=18)&& (age <=35)){
+    status ='target demo';
+    console.log(status);
+}
+else{
+    status='not my audience';
+    console.log(status);
+
+}
