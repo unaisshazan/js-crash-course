@@ -12,3 +12,7 @@ console.log(fruit.charAt(2));
 console.log(fruit[2]);
 console.log(fruit.split(','))
 console.log(fruit.split(''))
+//array
+let fruits = ['banana','apple','orange','pineapple'];
+ fruit = new Array ('banana','apple','orange','pineapple');
+ console.log(fruits[2]);
