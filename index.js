@@ -71,3 +71,6 @@ let student={
 }
 console.log(student.first); // access data using .
 console.log(student.last,student.age);
+//update data
+student.first='notUnais';
+console.log(student.first);
