@@ -61,3 +61,10 @@ emptyArray.push(num)
 }
 console.log(emptyArray)
 // adding elements in empty array
+
+//Objects in Js
+let student={
+    first : 'unais',
+    last: 'ali'
+}
+console.log(student.first);
