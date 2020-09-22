@@ -16,3 +16,24 @@ console.log(fruit.split(''))
 let fruits = ['banana','apple','orange','pineapple'];
  fruit = new Array ('banana','apple','orange','pineapple');
  console.log(fruits[2]);
+ fruits[0]='pear';
+ console.log(fruits);
+
+ for ( let i=0; i < fruits.length; i++){
+     console.log(fruits[i]);
+ }
+ //array common method
+
+ console.log('to string', fruits.toString());
+ console.log(fruits.join('-'));
+ console.log(fruits.join('*'));
+ console.log(fruits,fruits.pop(),fruits); // remove last element
+ console.log(fruits.push('blueberry'),fruits);
+ console.log(fruits[3]);
+ fruits[4]='new fruits';
+ fruit[fruits.length]='new fruit';
+ console.log(fruits)
+ fruits.shift(); // remove 1st element
+ console.log(fruits)
+ fruits.unshift('kiwi');// add  1st element
+ console.log(fruits)
