@@ -60,3 +60,4 @@ emptyArray.push(num)
 
 }
 console.log(emptyArray)
+// adding elements in empty array
