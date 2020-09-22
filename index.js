@@ -36,4 +36,15 @@ let fruits = ['banana','apple','orange','pineapple'];
  fruits.shift(); // remove 1st element
  console.log(fruits)
  fruits.unshift('kiwi');// add  1st element
- console.log(fruits)
+ console.log(fruits);
+ let vegetables=['tomoto','asparagus','broccoli'];
+ let allGroceries = fruits.concat(vegetables);
+ console.log(allGroceries);
+ //adding arrays in js 
+
+ console.log(allGroceries.slice(1,4));
+ console.log(allGroceries.reverse());
+ console.log(allGroceries.reverse());
+ let num=[2,4,5,6,7,5,6]
+ console.log(num.sort())
+ 
