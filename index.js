@@ -83,13 +83,30 @@ student.age++;
 console.log(student.age);
 console.log(student.studentInfo()); // function under the list
 // conditionals,control flows (if else)
-let age = prompt('what is your age?');
-if ((age >=18)&& (age <=35)){
-    status ='target demo';
-    console.log(status);
-}
-else{
-    status='not my audience';
-    console.log(status);
+//let age = prompt('what is your age?');
+// if ((age >=18)&& (age <=35)){
+//     status ='target demo';
+//     console.log(status);
+// }
+// else{
+//     status='not my audience';
+//     console.log(status);
 
+// }
+// //switch statements
+//differentiate between weekday vs weekend
+// day 0----> sunday
+// day 6----> saturday
+// day 4----> Thursday
+
+switch(0){
+    case 0:
+        text='weekend';
+    case 5:
+        text='weekend';
+    case 6:
+        text='weedays'
+        default:
+            text='weekday'
 }
+console.log(text);
