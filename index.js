@@ -65,6 +65,9 @@ console.log(emptyArray)
 //Objects in Js
 let student={
     first : 'unais',
-    last: 'ali'
+    last: 'ali',
+    age:20,
+    height:160
 }
-console.log(student.first);
+console.log(student.first); // access data using .
+console.log(student.last,student.age);
